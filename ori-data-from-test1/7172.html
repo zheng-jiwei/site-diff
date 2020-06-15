@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="DIC（ディーアイシー）は、印刷インキ、有機顔料、PPSコンパウンドで世界トップシェアのグローバルな化学メーカーです。（旧社名：大日本インキ化学工業）">
+	<title>DIC株式会社</title>
+	<meta property="og:site_name" content="DIC株式会社" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="DIC株式会社">
+	<meta property="og:description" content="DIC（ディーアイシー）は、印刷インキ、有機顔料、PPSコンパウンドで世界トップシェアのグローバルな化学メーカーです。（旧社名：大日本インキ化学工業）" />
+	<meta property="og:url" content="https://www.dic-global.com/">
+	<meta property="og:image" content="https://www.dic-global.com/common/images/ogp.png">
+	<meta property="fb:app_id" content="1375581695939670" />
+	<meta property="twitter:image" content="https://www.dic-global.com/common/images/ogp.png">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@DICCorporation">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+</head>
+<body>
+	<script>
+		window.onload = function(){
+		  var language;
+		  if(navigator.browserLanguage != null) {
+		    // Internet Explorer, Opera, 他
+		    language = navigator.browserLanguage;
+		  } else if(navigator.userLanguage != null) {
+		    // Internet Explorerの場合
+		    language = navigator.userLanguage;
+		  } else if(navigator.language != null) {
+		    // Chrome, Firefox, Opera, 他
+		    language = navigator.language;
+		  } else {
+		    // その他
+		    language = 'ja';
+		  }
+			if(language === 'ja' || language === 'ja-JP') {
+				location.href = '/ja/';
+			} else if(language === 'zh' || language === 'zh-Hans' || language === 'zh-SG' || language === 'zh-CN') {
+				location.href = '/cn/';
+			} else {
+				location.href = '/en/';
+			}
+		};
+	</script>
+</body>
+</html>
