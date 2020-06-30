@@ -1,3 +1,8 @@
-[Mon Jun 15 14:15:28 JST 2020] https://www.koho.lotte.co.jp [{:type javax.net.ssl.SSLHandshakeException, :message "No subject alternative DNS name matching www.koho.lotte.co.jp found.", :at [sun.security.ssl.Alert createSSLException "Alert.java" 131]} {:type java.security.cert.CertificateException, :message "No subject alternative DNS name matching www.koho.lotte.co.jp found.", :at [sun.security.util.HostnameChecker matchDNS "HostnameChecker.java" 207]}]
-[Mon Jun 15 14:15:28 JST 2020] https://site.api.demo.cmsod.jp/ [{:type java.net.UnknownHostException, :message "site.api.demo.cmsod.jp", :at [java.net.AbstractPlainSocketImpl connect "AbstractPlainSocketImpl.java" 220]}]
-[Mon Jun 15 14:15:28 JST 2020] https://edm.connecty.jp [{:type java.net.UnknownHostException, :message "edm.connecty.jp", :at [java.net.AbstractPlainSocketImpl connect "AbstractPlainSocketImpl.java" 220]}]
+[Tue Jun 30 17:53:54 JST 2020] http://www.rheon.com/
+[Tue Jun 30 18:03:33 JST 2020] http://www.kichiri.com
+[Tue Jun 30 18:39:34 JST 2020] ["https://www.d-kintetsu.co.jp/"]
+[Tue Jun 30 18:40:00 JST 2020] https://www.d-kintetsu.co.jp/jp/index.html
+[Tue Jun 30 18:43:19 JST 2020] https://www.d-kintetsu.co.jp/
+[Tue Jun 30 18:44:00 JST 2020] https://www.d-kintetsu.co.jp/
+[Tue Jun 30 18:45:09 JST 2020] https://www.d-kintetsu.co.jp/
+[Tue Jun 30 18:46:09 JST 2020] https://www.d-kintetsu.co.jp/

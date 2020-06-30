@@ -11,6 +11,7 @@
                  [org.clojure/data.csv "1.0.0"]
                  [org.jsoup/jsoup "1.7.3"]
                  [clj-http "3.10.1"]
+				 [clj-webdriver "0.6.0"]
              ]
 	:main ^:skip-aot my-app.core
   :target-path "target/%s"
